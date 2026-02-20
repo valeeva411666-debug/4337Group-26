@@ -6,5 +6,11 @@ namespace Group4337
     {
         public MainWindow()
             => InitializeComponent();
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Valeeva_4337 window = new Valeeva_4337();
+            window.Show();  
+        }
     }
 }
