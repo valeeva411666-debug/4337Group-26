@@ -5,9 +5,31 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Group4337"
         mc:Ignorable="d"
-        Title="Valeeva_4337" Height="450" Width="800">
-    <Grid>
-        <Label Content="Azaliya 18" HorizontalAlignment="Left" Margin="371,160,0,0" VerticalAlignment="Top"/>
+        Title="Valeeva Азалия - Лабораторная работа №3" 
+        Height="500" 
+        Width="800">
 
-    </Grid>
+    <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="200">
+        <TextBlock Text="Азалия 18"/>
+
+        <Button Content="Импорт из Excel"
+                Click="ImportButton_Click"
+                Height="30"
+                Margin="10"/>
+
+        <Button Content="Экспорт в Excel"
+                Click="ExportButton_Click"
+                Height="30"
+                Margin="10"/>
+        
+        <Button Content="Импорт JSON"
+                Click="ImportJson_Click"
+                Height="30"
+                 Margin="10"/>
+
+        <Button Content="Экспорт в Word"
+                Click="ExportWord_Click"
+                Height="30"
+                 Margin="10"/>
+    </StackPanel>
 </Window>
